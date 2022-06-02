@@ -1,0 +1,24 @@
+.ScreenLogger {
+  border: 2px solid coral;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  border: 0;
+}
+
+.ScreenLoggerForm {
+  display: flex;
+  align-items: center;
+}
+
+strong {
+  color: rgb(163, 59, 80);
+}
